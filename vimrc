@@ -37,6 +37,9 @@ set shell=bash                  " Vim expects a POSIX-compliant shell, which Fis
 let mapleader=","
 let maplocalleader="\\"
 
+scriptencoding utf-8
+set encoding=utf-8
+
 " Editing behaviour {{{
 set showmode                    " always show what mode we're currently editing in
 set nowrap                      " don't wrap lines
